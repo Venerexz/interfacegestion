@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Accés Serrures</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="navigation">
+            <nav>
+                <a href="./home.html"><h2 class="logo">Tribunal <span>d'Evry</span></h2></a>
+                  <ul>
+                    <li><a href="./acces_admin.php">Generer un QR Code</a></li>
+                    <li><a href="./gestion_demandes_utilisateur.php">Gestion des demandes</a></li>
+                    <li><a href="./liste_visages.php">Gestion Visages</a></li>
+                    <li><a href="./historique.php">Historique accés</a></li>
+                    <li><a href="./etat_occupation_ressources.php">Ressources</a></li>
+                    <li><a href="./acces_serrures.html">Accés aux serrures</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+        <div class="formulaire">
+            <h1>Accés Serrures</h1>
+            La connexion aux systémes embarqués est disponible en <b>SSH</b> et <b>VNC</b>. Les identifiants sont les mêmes,
+            avec l'unique différence que pour se connecter par VNC il faut imperativement être sur le même réseau
+            <br><br>
+            <h3><b>Identifiants de connexion:</b></h3>
+            <u>Serrure QR Codes:</u> 
+            <li>IP: 10.3.14.4</li>
+            <li>Nom utilisateur: snir</li>
+            <li>Mot de passe: administ</li>
+            <u>Serrure Reconnaissance Faciale:</u>
+            <li>IP: 10.194.176.83</li>
+            <li>Nom utilisateur: pi</li>
+            <li>Mot de passe: administ</li>
+
+        </div>
+    </body>
+</html>
